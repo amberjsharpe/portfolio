@@ -1,0 +1,9 @@
+.button {
+    border-color: #f1574b;
+    color: #f1574b;
+    border-radius: 100px;
+    border-style: solid;
+    border-width: 4px;
+    font-family: 'Roboto', sans-serif;
+    color: #000;
+}
