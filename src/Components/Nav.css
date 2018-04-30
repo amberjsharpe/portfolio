@@ -1,0 +1,50 @@
+.logo h1 {
+    font-family: 'Roboto-bold', sans-serif;
+    color: #f1574b;
+    font-size: 65px;
+}
+
+h2, 
+h2 a {
+    font-family: 'Roboto', sans-serif;
+    color: #000;
+    font-size: 25px;
+}
+
+h3 {
+    font-family: 'Roboto', sans-serif !important;
+    color: #000 !important;
+    font-size: 55px !important;   
+}
+
+h4 {
+    font-family: 'Roboto', sans-serif !important;
+    color: #000 !important;
+    font-size: 25px !important;
+}
+
+.amber-sharpe {
+    font-family: 'Roboto-Bold', sans-serif;
+    color: #f1574b;
+    font-size: 65px;
+    margin-top: 15px;
+    margin-left: 15px;
+}
+
+.introduction {
+    margin-top: 125px;
+}
+
+.head-intro {
+    margin-left: 250px;
+}
+
+.sub-intro {
+    text-align: center;
+    padding-top: 115px;
+}
+
+.down-arrow {
+    height: 55px;
+    width: 55px;
+}

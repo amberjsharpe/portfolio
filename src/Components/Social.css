@@ -1,0 +1,10 @@
+.social-media-icon {
+    width: 55px;
+    height: 55px;
+}
+
+.flex-column {
+    position: absolute;
+    right: 0;
+    top: 200px;
+}
