@@ -9,7 +9,7 @@ class About extends Component {
                 <div className="container d-flex">
                     <div className="w-50">
                         <h2 className="scooch">A scooch about me...</h2>
-                        <img src={confetti} className="confetti"/>
+                        <img className="confetti" src={confetti} alt="headshot of me throwing confetti" />
                     </div>
                 </div>
             </div>

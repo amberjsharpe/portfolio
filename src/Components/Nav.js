@@ -8,7 +8,6 @@ import {
 } from 'react-router-dom';
 import Introduction from './Introduction';
 import Work from './Work';
-import Play from './Play';
 import About from './About';
 
 class Nav extends Component {
