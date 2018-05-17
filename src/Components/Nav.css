@@ -23,28 +23,13 @@ h4 {
     font-size: 25px !important;
 }
 
-.amber-sharpe {
-    font-family: 'Roboto-Bold', sans-serif;
-    color: #f1574b;
-    font-size: 65px;
-    margin-top: 15px;
-    margin-left: 15px;
+.nav-item {
+    width: 120px;
 }
 
-.introduction {
-    margin-top: 125px;
+.nav-bar h2 a:hover {
+    color: black;
+    font-size: 30px;
+    text-decoration: none;
 }
-
-.head-intro {
-    margin-left: 250px;
-}
-
-.sub-intro {
-    text-align: center;
-    padding-top: 115px;
-}
-
-.down-arrow {
-    height: 55px;
-    width: 55px;
-}
+   

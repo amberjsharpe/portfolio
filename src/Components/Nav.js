@@ -23,18 +23,16 @@ class Nav extends Component {
                                 <div className="logo"><h1>a/#</h1></div>
                             </Link>
                         </div>
-                        <div className="d-flex">
-                            <h2><Link className="pr-5" to='/'>HOME</Link></h2>
-                            <h2 className="pr-5"><Link to='/work'>WORK</Link></h2>
-                            <h2><Link to='/play'>PLAY</Link></h2>
-                            <h2><Link className="pl-5" to='/about'>ABOUT</Link></h2>
+                        <div className="nav-bar d-flex">
+                            <div className="nav-item"><h2><Link to='/'>HOME</Link></h2></div>
+                            <div className="nav-item"><h2><Link to='/work'>WORK</Link></h2></div>
+                            <div className="nav-item"><h2><Link to='/about'>ABOUT</Link></h2></div>
                         </div>
                     </nav>
                     <div>
                         <Switch>
                             <Route exact path="/" component={Introduction}/>
                             <Route path='/Work' component={Work} />
-                            <Route path='/Play' component={Play} />
                             <Route path='/About' component={About} />
                         </Switch>
                     </div>
