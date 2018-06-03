@@ -23,9 +23,9 @@ class Nav extends Component {
                             </Link>
                         </div>
                         <div className="nav-bar d-flex justify-content-between col-12 col-md-9">
-                            <div className="nav-item"><h2><Link to='/'>HOME</Link></h2></div>
-                            <div className="nav-item"><h2><Link to='/work'>WORK</Link></h2></div>
-                            <div className="nav-item"><h2><Link to='/about'>ABOUT</Link></h2></div>
+                            <div className="nav-item nav-underline"><h2><Link to='/'>HOME</Link></h2></div>
+                            <div className="nav-item nav-underline"><h2><Link to='/work'>WORK</Link></h2></div>
+                            <div className="nav-item nav-underline"><h2><Link to='/about'>ABOUT</Link></h2></div>
                         </div>
                     </nav>
                     <div>

@@ -1,14 +1,19 @@
 .logo h1 {
     font-family: 'Roboto-bold', sans-serif;
     color: #f1574b;
-    font-size: 55px;
+    font-size: 55px
+}
+
+a {
+    text-decoration: none !important;
 }
 
 h2, 
 h2 a {
     font-family: 'Roboto', sans-serif;
-    color: #000;
+    color: #000 !important;
     font-size: 25px;
+    text-decoration: none !important;
 }
 
 h3 {
@@ -23,7 +28,9 @@ h4 {
     font-size: 25px !important;
 }
 
-.nav-bar h2 a:hover {
-
+.nav-underline {
+    border-bottom: 3px solid;
+    border-color: #F18805;
 }
+
    
