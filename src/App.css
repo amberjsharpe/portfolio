@@ -1,3 +1,11 @@
 html {
     margin: 20px 95px;
 }
+
+h2 a:hover {
+    color: black !important;
+}
+
+a:hover {
+    text-decoration: none !important;
+}
