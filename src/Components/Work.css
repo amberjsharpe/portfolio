@@ -1,0 +1,19 @@
+
+.project {
+    border-radius: 50%;
+    width: 250px;
+    height: 250px;
+}
+
+.image-overlay-red {
+    background-color: rgb(241, 87, 75, 0.3);
+}
+
+.image-overlay-orange {
+    background-color: rgba(241, 136, 5, 0.3);
+}
+
+.image-overlay-blue {
+    background-color: rgba(32, 44, 89, 0.3);
+}
+
