@@ -4,11 +4,24 @@
     font-size: 65px;
 }
 
+.nav {
+    width: 30%;
+}
+
 h2, 
 h2 a {
     font-family: 'Roboto', sans-serif;
     color: #000;
     font-size: 25px;
+}
+
+a:after, a:hover, a:hover:after{
+    font-size: 105%;
+}
+
+a:active, a:focus {
+    border-bottom: 3px solid #f1574b;
+    font-size: 105%;
 }
 
 h3 {

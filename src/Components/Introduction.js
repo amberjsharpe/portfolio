@@ -1,5 +1,6 @@
 import React from 'react';
 import './Nav.css';
+import Work from '../Components/Work';
 import down from "../images/down.png";
 
 function Intro () {
@@ -15,6 +16,7 @@ function Intro () {
             <div className="d-flex justify-content-center pt-2">
                 <img src={down} alt="down arrow" className="down-arrow"/>
             </div>
+            <Work />
         </div>
     )
 }

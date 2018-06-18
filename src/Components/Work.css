@@ -1,19 +1,34 @@
-
 .project {
-    border-radius: 50%;
     width: 250px;
     height: 250px;
+    border-radius: 50%;
+}
+
+.bookworm-font {
+    font-family: 'Merriweather Sans' !important;
+    font-size: 38px;
+}
+
+.do-font {
+    font-family: 'comfortaa' !important; 
+    font-size: 60px !important;
+}
+
+.smalltalk-font {
+    font-family: 'Maven Pro' !important;
+    font-size: 44px !important;
+    font-weight: bold !important;
 }
 
 .image-overlay-red {
-    background-color: rgb(241, 87, 75, 0.3);
+    background-color: rgba(233, 137, 61);
 }
 
 .image-overlay-orange {
-    background-color: rgba(241, 136, 5, 0.3);
+    background-color: rgba(255, 178, 54);
 }
 
 .image-overlay-blue {
-    background-color: rgba(32, 44, 89, 0.3);
+    background-color: rgba(127, 222, 255);
 }
 
