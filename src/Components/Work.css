@@ -23,6 +23,11 @@
     border-bottom: solid black 2px;
 }
 
+.orange-underline {
+    text-decoration: underline;
+    text-decoration-color: rgba(233, 137, 61);
+}
+
 .image-overlay-red {
     background-color: rgba(233, 137, 61);
 }
@@ -47,6 +52,16 @@
 
 .persona-img {
     width: 600px;
+    height: 350px;
+}
+
+.screensketch-img {
+    width: 300px;
+    height: 300px;
+}
+
+.screengrab-img {
+    width: 500px;
     height: 350px;
 }
 
