@@ -3,6 +3,7 @@ import Workbtns from '../Components/Workbtns';
 import winner from '../images/do-winnershot.png';
 import team from '../images/do-team.png';
 import api from '../images/API.png';
+import user from '../images/do-user.png';
 
 class Do extends Component {
     render() {
@@ -29,17 +30,17 @@ class Do extends Component {
                         <h3 className="pb-3 do-orange-underline">Our Concept</h3>
                         <div className="d-flex">
                             <img className="screengrab-img" src={api} alt="api" />
-                            <p className="w-50 pl-5 pr-5">Day Out, or do., is a Tinder style app that allows users to "match" with new points of interest in the Nashville area. Using data from data.nashville.gov, do. pulls from Nashville's Public Art, Historical Markers, and Parks data.</p>
+                            <p className="w-50 pl-5 pr-5"><strong>Day Out, or do., is a Tinder style app</strong> that allows users to "match" with new points of interest in the Nashville area. Using data from data.nashville.gov, do. pulls from Nashville's Public Art, Historical Markers, and Parks data.</p>
                         </div>
                     </div>    
                 </div>
                     <div className="d-flex pt-5 pb-5 bottom-border">
                         <div className="pt-5">
-                            <h3 className="do-orange-underline">Meet Abby!</h3>
-                            <p>My research led me to develop me to develop this persona. In my design I tried to keep the design fun and colorful. I also based my interface design on interfaces that she already uses, like Pinterest and Instagram.</p>
-                            <p>I learned that the way that my persona browses books is different from the way that she buys books. While she enjoys going to bookstores and browsing for leisure, the odds are she is going to actually buy books on Amazon. This led me to my challenge statement ...</p>
-                        </div>
-                        <div>
+                            <h3 className="pb-3 do-orange-underline">Our User</h3>
+                            <div className="d-flex">
+                                <img className="screengrab-img" src={user} alt="user" />
+                                <p className="w-50 pl-5 pr-5">We call our user the "Impoverished Influencer." Think millennial, think hipster, think school debt. Bryan, is the kind of guy that wants to be on top of the game when it comes to the next cool thing to do. He’s is looking to find interesting new ways to break his routine - and if they’re free, all the better. He’s already an outdoor exerciser, he takes his dog to the dog park, our goal is to expand on his behaviour and let him know what else there is to do. in his area.</p>
+                            </div>
                         </div>
                     </div>
                     <div className="d-flex">
