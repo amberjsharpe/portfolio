@@ -1,6 +1,6 @@
 import React from 'react';
 import './Nav.css';
-import Work from '../Components/Work';
+import Workbtns from '../Components/Workbtns';
 import down from "../images/down.png";
 
 function Intro () {
@@ -13,10 +13,10 @@ function Intro () {
                 <h4>I'm a UX Designer and Front-end Developer.</h4>
                 <h4>Explore some of my work below.</h4>
             </div>
-            <div className="d-flex justify-content-center pt-2">
+            <div className="d-flex justify-content-center pt-5">
                 <img src={down} alt="down arrow" className="down-arrow"/>
             </div>
-            <Work />
+            <Workbtns />
         </div>
     )
 }

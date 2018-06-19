@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
 import Workbtns from '../Components/Workbtns';
 
-class Bookworm extends Component {
+class Smalltalk extends Component {
     render() {
         return(
             <div>
@@ -12,4 +12,4 @@ class Bookworm extends Component {
 
 }
 
-export default Bookworm
+export default Smalltalk
