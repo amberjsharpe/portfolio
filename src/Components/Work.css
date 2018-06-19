@@ -28,6 +28,11 @@
     text-decoration-color: rgba(233, 137, 61);
 }
 
+.do-orange-underline {
+    text-decoration: underline;
+    text-decoration-color: rgba(255, 178, 54);    
+}
+
 .image-overlay-red {
     background-color: rgba(233, 137, 61);
 }
@@ -67,6 +72,11 @@
 .screengrab-img {
     width: 550px;
     height: 350px;
+}
+
+.firebase-img {
+    width: 350px;
+    height: 300px;
 }
 
 p {

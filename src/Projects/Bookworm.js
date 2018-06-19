@@ -10,6 +10,7 @@ import bookwormscreen2 from '../images/bookworm2.png';
 import bookwormscreen3 from '../images/bookworm3.png';
 import modal from '../images/bookworm-modal.png';
 import present from '../images/bookworm-present.jpg';
+import firebase from '../images/firebase.jpg';
 
 
 class Bookworm extends Component {
@@ -63,6 +64,13 @@ class Bookworm extends Component {
                             <img className="screensketch-img" src={screensketch3} alt="screen sketch" />
                         </div>
                     </div>
+                    <div className="pt-5 pb-5 bottom-border">
+                        <h3 className="pt-5 pb-5 orange-underline">Firebase Data Structure</h3>
+                        <div className="d-flex">
+                            <img className="firebase-img" src={firebase} alt="firebase data structure"/>
+                            <p className="pr-5 pl-5">If you fail to plan, then you plan to fail! Planning my Firebase data structure before I coded helped me to figure out what functions that I would need to write to interact with my database.</p>
+                        </div>
+                    </div>
                     <div className="bottom-border pb-5">
                         <h3 className="pt-5 pb-5 orange-underline">Bookworm v.1</h3>
                         <p>This was the final result that I presented from my midstone. I learned from my user interviews that when my persona shops for books she is primary interested in knowing the title, author, and pertinent details about the book. To keep the book cards from looking too cluttered, I programmed a modal to pop up with book details when you click on the book image.</p>
@@ -93,7 +101,7 @@ class Bookworm extends Component {
 
                         </li>
                         <li>
-                            <p>The biggest lesson that I learned was to not be afraid to pivot. Many times during the project I would be heading down one path, only to hear from my users that they wanted something different. I learned ot keep my process fluid enough that changes can be made along the way.</p>
+                            <p>The biggest lesson that I learned was to not be afraid to pivot. Many times during the project I would be heading down one path, only to hear from my users that they wanted something different. I learned to keep my process fluid enough that changes can be made along the way.</p>
                         </li>
                     </ul>
 
