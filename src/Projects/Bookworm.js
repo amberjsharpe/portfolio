@@ -6,7 +6,6 @@ import persona from '../images/bookworm-persona.png';
 import screensketch1 from '../images/ScreenSketch1.jpg';
 import screensketch2 from '../images/ScreenSketch2.jpg';
 import screensketch3 from '../images/ScreenSketch3.jpg';
-import bookwormscreen1 from '../images/bookworm1.png';
 import bookwormscreen2 from '../images/bookworm2.png';
 import bookwormscreen3 from '../images/bookworm3.png';
 
@@ -61,12 +60,11 @@ class Bookworm extends Component {
                         </div>
                     </div>
                     <div>
-                        <h3 className="pt-5 pb-5 orange-underline">Bookworm</h3>
+                        <h3 className="pt-5 pb-5 orange-underline">Bookworm v.1</h3>
                         <div className="d-flex justify-content-around">
                             <img className="screengrab-img" src={bookwormscreen2} alt="bookworm search results"/>
                             <img className="screengrab-img" src={bookwormscreen3} alt="bookworm read books page"/>
-                        </div>
-                        
+                        </div>   
                     </div>
             </div>
         )
