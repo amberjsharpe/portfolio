@@ -2,6 +2,7 @@ import React, { Component } from 'react';
 import Workbtns from '../Components/Workbtns';
 import winner from '../images/do-winnershot.png';
 import team from '../images/do-team.png';
+import api from '../images/API.png';
 
 class Do extends Component {
     render() {
@@ -15,7 +16,7 @@ class Do extends Component {
                 </div>
                 <p className="bottom-border pb-5">For this project, our instructor came up with the idea for us to design, build, and pitch an application using data from Nashville's Open Data. And thus, Nashville Software School's first "Perfect Pitch Competition" was born. To read more about the competition and the other wonderful apps that my classmates build, click <a href="http://learn.nashvillesoftwareschool.com/blog/2018/05/29/metro-nashville-open-data-application-pitches?utm_medium=social&utm_source=linkedin" target="_blank">here</a>. This was one of my favorite projects that I worked on at NSS. It was so amazing to get feedback from the tech community about what we had built.</p>
                 <div className="d-flex pt-5 pb-5 bottom-border">
-                    <div className="pr-5 pl-5">
+                    <div>
                         <h3 className="pb-3 do-orange-underline">Our Team</h3>
                         <div className="d-flex">
                             <img className="screengrab-img" src={team} alt="team members and their roles" />
@@ -24,9 +25,12 @@ class Do extends Component {
                     </div>
                 </div>
                 <div className="d-flex pt-5 pb-5 bottom-border">
-                    <div className="w-50">
-                        <h3 className="do-orange-underline">Research</h3>
-                        <p>I sent out a survey asking "avid readers" (those who read more than 20 books a year) to respond to a few questions. The responses that I received showed some clear themes about these "avid readers", so I decided to make an application based on what I discovered during this research. I followed up with several people to do more in-depth interviews about their reading habits and how they interacted with technology during that process.</p>
+                    <div>
+                        <h3 className="pb-3 do-orange-underline">Our Concept</h3>
+                        <div className="d-flex">
+                            <img className="screengrab-img" src={api} alt="api" />
+                            <p className="w-50 pl-5 pr-5">Day Out, or do., is a Tinder style app that allows users to "match" with new points of interest in the Nashville area. Using data from data.nashville.gov, do. pulls from Nashville's Public Art, Historical Markers, and Parks data.</p>
+                        </div>
                     </div>    
                 </div>
                     <div className="d-flex pt-5 pb-5 bottom-border">
