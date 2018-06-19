@@ -2,7 +2,8 @@ import React, { Component } from 'react';
 import './Nav.css';
 import {
     Route,
-    Link
+    Link,
+    NavLink
 } from 'react-router-dom';
 import Introduction from './Introduction';
 import Work from './Work';
@@ -25,10 +26,10 @@ class Nav extends Component {
                         </Link>
                     </div>
                     <div className="nav d-flex justify-content-between">
-                        <h2><Link to='/home'>HOME</Link></h2>
-                        <h2><Link to='/work'>WORK</Link></h2>
-                        <h2><Link to='/play'>PLAY</Link></h2>
-                        <h2><Link to='/about'>ABOUT</Link></h2>
+                        <h2><NavLink activeClassName='is-active' to='/home'>HOME</NavLink></h2>
+                        <h2><NavLink activeClassName='is-active' to='/work'>WORK</NavLink></h2>
+                        <h2><NavLink activeClassName='is-active' to='/play'>PLAY</NavLink></h2>
+                        <h2><NavLink activeClassName='is-active' to='/about'>ABOUT</NavLink></h2>
                     </div>
                 </nav>
                 <div>

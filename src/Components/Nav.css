@@ -15,18 +15,11 @@ h2 a {
     font-size: 25px;
 }
 
-.active {
-    font-size: 105%;
-    border-bottom: 3px solid #F0A202;
+.is-active:hover:after{
     font-size: 105%;
 }
 
-
-a:after, a:hover, a:hover:after{
-    font-size: 105%;
-}
-
-a:active, a:focus {
+.is-active {
     border-bottom: 3px solid #F0A202;
     font-size: 105%;
 }
