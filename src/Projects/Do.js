@@ -1,5 +1,7 @@
 import React, { Component } from 'react';
 import Workbtns from '../Components/Workbtns';
+import winner from '../images/do-winnershot.png';
+import team from '../images/do-team.png';
 
 class Do extends Component {
     render() {
@@ -11,11 +13,14 @@ class Do extends Component {
                 <div className="pt-3">
                     <h3 className="do-font do-orange-underline">do.</h3>
                 </div>
-                <p className="bottom-border pb-5">Bookworm is a project that I made during my time at Nashville Software School. We had two weeks to conduct user research, wireframe, prototype, and develop an application. This was the first application that I had ever built completely on my own from top to bottom. While I look back now and see all the things that I would do differently, Bookworm still has a very fond place in my heart.</p>
+                <p className="bottom-border pb-5">For this project, our instructor came up with the idea for us to design, build, and pitch an application using data from Nashville's Open Data. And thus, Nashville Software School's first "Perfect Pitch Competition" was born. To read more about the competition and the other wonderful apps that my classmates build, click <a href="http://learn.nashvillesoftwareschool.com/blog/2018/05/29/metro-nashville-open-data-application-pitches?utm_medium=social&utm_source=linkedin" target="_blank">here</a>.</p>
                 <div className="d-flex pt-5 pb-5 bottom-border">
-                    <div className="w-50 pt-5 pr-5 pl-5">
-                        <h3 className="do-orange-underline">My inspiration</h3>
-                        <p>I began my project by ambitiously deciding to re-design the entire parnassus website. I created a survey to try to get more information on "avid readers" and drew up my initial wireframes. It was during the wireframe process that I realized my time constraint was going to get the best of me. I was going to need to pivot ...</p>
+                    <div className="pt-5 pr-5 pl-5">
+                        <h3 className="do-orange-underline">Our Team</h3>
+                        <div className="d-flex">
+                            <img className="screengrab-img" src={team} alt="team members and their roles" />
+                            <p className="pl-5 pr-5">blah</p>
+                        </div>
                     </div>
                 </div>
                 <div className="d-flex pt-5 pb-5 bottom-border">

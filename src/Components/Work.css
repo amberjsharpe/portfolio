@@ -70,11 +70,11 @@
 }
 
 .screengrab-img {
-    width: 550px;
+    width: 560px;
     height: 350px;
 }
 
-.firebase-img {
+.firebase-img, .win-img {
     width: 350px;
     height: 300px;
 }
