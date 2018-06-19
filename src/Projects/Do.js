@@ -15,11 +15,11 @@ class Do extends Component {
                 </div>
                 <p className="bottom-border pb-5">For this project, our instructor came up with the idea for us to design, build, and pitch an application using data from Nashville's Open Data. And thus, Nashville Software School's first "Perfect Pitch Competition" was born. To read more about the competition and the other wonderful apps that my classmates build, click <a href="http://learn.nashvillesoftwareschool.com/blog/2018/05/29/metro-nashville-open-data-application-pitches?utm_medium=social&utm_source=linkedin" target="_blank">here</a>.</p>
                 <div className="d-flex pt-5 pb-5 bottom-border">
-                    <div className="pt-5 pr-5 pl-5">
-                        <h3 className="do-orange-underline">Our Team</h3>
+                    <div className="pr-5 pl-5">
+                        <h3 className="pb-3 do-orange-underline">Our Team</h3>
                         <div className="d-flex">
                             <img className="screengrab-img" src={team} alt="team members and their roles" />
-                            <p className="pl-5 pr-5">blah</p>
+                            <p className="w-50 pl-5 pr-5">I was involved in <strong>Project Management, UX Design and Reseach, and Development.</strong> I assisted Lindsay in creating and assigning tickets, tracking progress, and merging pull requests on Github. I was also a part of the team that initial design and tested the prototype. I wanted to make sure that I did some coding to keep my skills sharp, so I was involved in creating some of the HTML &amp; CSS, as well as de-bugging code with my teammates.</p>
                         </div>
                     </div>
                 </div>
