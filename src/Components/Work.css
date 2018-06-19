@@ -49,34 +49,36 @@
     background-color: rgba(127, 222, 255);
 }
 
-.parnassus-img {
-    width: 600px;
-    height: 300px;
-}
+@media (min-width: 700px) {
+    .parnassus-img {
+        width: 600px;
+        height: 300px;
+    }
+    
+    .insights-img {
+        width: 600px;
+        height: 350px;
+    }
+    
+    .persona-img {
+        width: 600px;
+        height: 350px;
+    }
 
-.insights-img {
-    width: 600px;
-    height: 350px;
-}
-
-.persona-img {
-    width: 600px;
-    height: 350px;
-}
-
-.screensketch-img {
-    width: 300px;
-    height: 300px;
-}
-
-.screengrab-img {
-    width: 560px;
-    height: 350px;
-}
-
-.firebase-img, .win-img {
-    width: 350px;
-    height: 300px;
+    .screensketch-img {
+        width: 300px;
+        height: 300px;
+    }
+    
+    .screengrab-img {
+        width: 560px;
+        height: 350px;
+    }
+    
+    .firebase-img, .win-img {
+        width: 350px;
+        height: 300px;
+    }
 }
 
 p {

@@ -14,18 +14,16 @@ import Do from '../Projects/Do';
 import Smalltalk from '../Projects/Smalltalk';
 
 class Nav extends Component {
-
     render() {
-
-    return (
-            <div>
-                <nav className="d-flex justify-content-between">
-                    <div>
+        return (
+            <div className="container-fluid">
+                <nav className="row d-flex justify-content-between align-items-center">
+                    <div className="col-12 col-md-6">
                         <Link to='/home'>
                             <div className="logo"><h1>a/#</h1></div>
                         </Link>
                     </div>
-                    <div className="nav d-flex justify-content-between">
+                    <div className="nav d-flex justify-content-between col-12 col-md-6">
                         <h2><NavLink activeClassName='is-active' to='/home'>HOME</NavLink></h2>
                         <h2><NavLink activeClassName='is-active' to='/work'>WORK</NavLink></h2>
                         {/* <h2><NavLink activeClassName='is-active' to='/play'>PLAY</NavLink></h2> */}

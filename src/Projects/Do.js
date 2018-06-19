@@ -20,36 +20,52 @@ class Do extends Component {
                 <div className="d-flex pt-5 pb-5 bottom-border">
                     <div>
                         <h3 className="pb-3 do-orange-underline">Our Team</h3>
-                        <div className="d-flex">
-                            <img className="screengrab-img" src={team} alt="team members and their roles" />
-                            <p className="w-50 pl-5 pr-5">I was involved in <strong>Project Management, UX Design and Reseach, and Development.</strong> I assisted Lindsay in creating and assigning tickets, tracking progress, and merging pull requests on Github. I was also a part of the team that initial design and tested the prototype, as well as doing a little development.</p>
+                        <div className="row">
+                            <div className="col-12 col-md-6">
+                                <img className="screengrab-img img-fluid" src={team} alt="team members and their roles" />
+                            </div>
+                            <div className="col-12 col-md-6">
+                                <p className="pl-5 pr-5">I was involved in <strong>Project Management, UX Design and Reseach, and Development.</strong> I assisted Lindsay in creating and assigning tickets, tracking progress, and merging pull requests on Github. I was also a part of the team that initial design and tested the prototype, as well as doing a little development.</p>
+                            </div>
                         </div>
                     </div>
                 </div>
                 <div className="d-flex pt-5 pb-5 bottom-border">
                     <div>
                         <h3 className="pb-3 do-orange-underline">Our Concept</h3>
-                        <div className="d-flex">
-                            <img className="screengrab-img" src={api} alt="api" />
-                            <p className="w-50 pl-5 pr-5"><strong>Day Out, or do., is a Tinder style app</strong> that allows users to "match" with new points of interest in the Nashville area. Using data from data.nashville.gov, do. pulls from Nashville's Public Art, Historical Markers, and Parks data.</p>
+                        <div className="row d-flex">
+                            <div className="col-12 col-md-6">
+                                <img className="screengrab-img img-fluid" src={api} alt="api" />
+                            </div>
+                            <div className="col-12 col-md-6">
+                                <p className="pl-5 pr-5"><strong>Day Out, or do., is a Tinder style app</strong> that allows users to "match" with new points of interest in the Nashville area. Using data from data.nashville.gov, do. pulls from Nashville's Public Art, Historical Markers, and Parks data.</p>
+                            </div>
                         </div>
                     </div>    
                 </div>
                     <div className="d-flex pt-5 pb-5 bottom-border">
                         <div>
                             <h3 className="pb-3 do-orange-underline">Our User</h3>
-                            <div className="d-flex">
-                                <img className="screengrab-img" src={user} alt="user" />
-                                <p className="w-50 pl-5 pr-5">We call our user the "Impoverished Influencer." <strong>Think millennial, think hipster, think school debt.</strong> Bryan, is the kind of guy that wants to be on top of the game when it comes to the next cool thing to do. He’s is looking to find interesting new ways to break his routine - and if they’re free, all the better. He’s already an outdoor exerciser, he takes his dog to the dog park, our goal is to expand on his behaviour and let him know what else there is to do. in his area.</p>
+                            <div className="row d-flex">
+                                <div className="col-12 col-md-6">
+                                    <img className="screengrab-img img-fluid" src={user} alt="user" />
+                                </div>
+                                <div className="col-12 col-md-6">
+                                    <p className="pl-5 pr-5">We call our user the "Impoverished Influencer." <strong>Think millennial, think hipster, think school debt.</strong> Bryan, is the kind of guy that wants to be on top of the game when it comes to the next cool thing to do. He’s is looking to find interesting new ways to break his routine - and if they’re free, all the better. He’s already an outdoor exerciser, he takes his dog to the dog park, our goal is to expand on his behaviour and let him know what else there is to do. in his area.</p>
+                                </div>                                
                             </div>
                         </div>
                     </div>
                     <div className="d-flex pt-5 pb-5 bottom-border">
                         <div>
                             <h3 className="pb-3 do-orange-underline">Competitor Research</h3>
-                            <div className="d-flex">
-                                <img className="screengrab-img" src={competitor} alt="competitor research" />
-                                <p className="w-50 pl-5 pr-5">help help help help help help help help help help help help help help help help help help </p>
+                            <div className="row d-flex">
+                                <div className="col-12 col-md-6">
+                                    <img className="screengrab-img img-fluid" src={competitor} alt="competitor research" />
+                                </div>   
+                                <div className="col-12 col-md-6">
+                                    <p className="pl-5 pr-5">help help help help help help help help help help help help help help help help help help </p>
+                                </div>                                 
                             </div>
                         </div>
                     </div>
@@ -71,7 +87,7 @@ class Do extends Component {
                         <div className="bottom-border pb-5">
                             <h3 className="pt-5 pb-5 do-orange-underline">Presentation Time!</h3>
                             <div className="d-flex">
-                                <p className="pr-5 pl-5">If you can't tell, I had so much fun showing everyone what I had built. Along with a demonstration of my app, I was also able to share some of the lessons that I had learned along the way, and what I would build in version 2.</p>
+                                <p>If you can't tell, I had so much fun showing everyone what I had built. Along with a demonstration of my app, I was also able to share some of the lessons that I had learned along the way, and what I would build in version 2.</p>
                             </div>
                         </div>
                     </div>

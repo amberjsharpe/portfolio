@@ -5,11 +5,11 @@ import './About.css';
 class About extends Component {
     render() {
         return(
-            <div className="d-flex pt-5">
-                <div className="w-50">
-                    <img className="confetti"src={confetti} alt="confetti-headshot"/>
+            <div className="row d-flex pt-5">
+                <div className="col-12 col-md-6">
+                    <img className="confetti img-fluid" src={confetti} alt="confetti-headshot"/>
                 </div>
-                <div className="w-50">
+                <div className="col-12 col-md-6">
                     <h1 className="pb-5">So you wanna know a little more?</h1>
                     <p>
                     Lorem ipsum dolor amet flexitarian vinyl chillwave slow-carb master cleanse. Freegan hoodie man bun leggings selvage tofu kickstarter squid retro. Chia 90's hella iceland cold-pressed, cliche slow-carb man braid distillery. Man bun wayfarers plaid hot chicken ugh cronut, live-edge succulents pug meggings 8-bit venmo chillwave meh. Literally fam poutine cornhole biodiesel. Fixie vape live-edge iPhone, meditation literally hot chicken ennui gochujang taiyaki organic chia drinking vinegar listicle tumblr. Subway tile truffaut glossier deep v whatever gluten-free vexillologist.
