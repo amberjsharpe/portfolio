@@ -4,6 +4,7 @@ import winner from '../images/do-winnershot.png';
 import team from '../images/do-team.png';
 import api from '../images/API.png';
 import user from '../images/do-user.png';
+import competitor from '../images/do-competitor.png';
 
 class Do extends Component {
     render() {
@@ -35,19 +36,27 @@ class Do extends Component {
                     </div>    
                 </div>
                     <div className="d-flex pt-5 pb-5 bottom-border">
-                        <div className="pt-5">
+                        <div>
                             <h3 className="pb-3 do-orange-underline">Our User</h3>
                             <div className="d-flex">
                                 <img className="screengrab-img" src={user} alt="user" />
-                                <p className="w-50 pl-5 pr-5">We call our user the "Impoverished Influencer." Think millennial, think hipster, think school debt. Bryan, is the kind of guy that wants to be on top of the game when it comes to the next cool thing to do. He’s is looking to find interesting new ways to break his routine - and if they’re free, all the better. He’s already an outdoor exerciser, he takes his dog to the dog park, our goal is to expand on his behaviour and let him know what else there is to do. in his area.</p>
+                                <p className="w-50 pl-5 pr-5">We call our user the "Impoverished Influencer." <strong>Think millennial, think hipster, think school debt.</strong> Bryan, is the kind of guy that wants to be on top of the game when it comes to the next cool thing to do. He’s is looking to find interesting new ways to break his routine - and if they’re free, all the better. He’s already an outdoor exerciser, he takes his dog to the dog park, our goal is to expand on his behaviour and let him know what else there is to do. in his area.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div className="d-flex pt-5 pb-5 bottom-border">
+                        <div>
+                            <h3 className="pb-3 do-orange-underline">Competitor Research</h3>
+                            <div className="d-flex">
+                                <img className="screengrab-img" src={competitor} alt="competitor research" />
+                                <p className="w-50 pl-5 pr-5">help help help help help help help help help help help help help help help help help help </p>
                             </div>
                         </div>
                     </div>
                     <div className="d-flex">
                         <div className="pt-5 pb-5 bottom-border">
                             <h3 className="do-orange-underline pt-1 pb-1">Challenge Statement</h3>
-                            <h4>How might I enable my persona to browse books in a relaxed setting without the pressure to purchase, while giving them the ability to track books that they’ve read or that they want to read?</h4>
-                            <p>My solution for this challenge statement came in the form of an application primarily designed to search for books that you would like to read, or that allowed you to track books that you had already read. This met my persona's challenge of wanting to browse for books that she wanted to read without the pressure to buy (and also was achievable within the scope of my technical abilities).</p>
+                            <h4>How might we make finding new public spaces fast, fun, simple, and relatable?</h4>
                         </div>
                     </div>
                     <div className="pt-5 pb-5 bottom-border">
