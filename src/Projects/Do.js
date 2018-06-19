@@ -19,7 +19,7 @@ class Do extends Component {
                         <h3 className="pb-3 do-orange-underline">Our Team</h3>
                         <div className="d-flex">
                             <img className="screengrab-img" src={team} alt="team members and their roles" />
-                            <p className="w-50 pl-5 pr-5">I was involved in <strong>Project Management, UX Design and Reseach, and Development.</strong> I assisted Lindsay in creating and assigning tickets, tracking progress, and merging pull requests on Github. I was also a part of the team that initial design and tested the prototype. I wanted to make sure that I did some coding to keep my skills sharp, so I was involved in creating some of the HTML &amp; CSS, as well as de-bugging code with my teammates.</p>
+                            <p className="w-50 pl-5 pr-5">I was involved in <strong>Project Management, UX Design and Reseach, and Development.</strong> I assisted Lindsay in creating and assigning tickets, tracking progress, and merging pull requests on Github. I was also a part of the team that initial design and tested the prototype, as well as doing a little development.</p>
                         </div>
                     </div>
                 </div>

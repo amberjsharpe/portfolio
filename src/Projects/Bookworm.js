@@ -25,7 +25,7 @@ class Bookworm extends Component {
                 </div>
                 <p className="bottom-border pb-5">Bookworm is a project that I made during my time at Nashville Software School. We had two weeks to conduct user research, wireframe, prototype, and develop an application. This was the first application that I had ever built completely on my own from top to bottom. While I look back now and see all the things that I would do differently, Bookworm still has a very fond place in my heart.</p>
                 <div className="d-flex pt-5 pb-5 bottom-border">
-                    <div className="w-50 pt-5 pr-5 pl-5">
+                    <div className="w-50 pt-5">
                         <h3 className="orange-underline">My inspiration</h3>
                         <p>I began my project by ambitiously deciding to re-design the entire parnassus website. I created a survey to try to get more information on "avid readers" and drew up my initial wireframes. It was during the wireframe process that I realized my time constraint was going to get the best of me. I was going to need to pivot ...</p>
                     </div>
@@ -68,7 +68,7 @@ class Bookworm extends Component {
                         <h3 className="pt-5 pb-5 orange-underline">Firebase Data Structure</h3>
                         <div className="d-flex">
                             <img className="firebase-img" src={firebase} alt="firebase data structure"/>
-                            <p className="pr-5 pl-5">If you fail to plan, then you plan to fail! Planning my Firebase data structure before I coded helped me to figure out what functions that I would need to write to interact with my database.</p>
+                            <p className="pr-5 pl-5">If you fail to plan, then you plan to fail!</p>
                         </div>
                     </div>
                     <div className="bottom-border pb-5">
