@@ -13,7 +13,7 @@ class Do extends Component {
                 <div className="pt-3">
                     <h3 className="do-font do-orange-underline">do.</h3>
                 </div>
-                <p className="bottom-border pb-5">For this project, our instructor came up with the idea for us to design, build, and pitch an application using data from Nashville's Open Data. And thus, Nashville Software School's first "Perfect Pitch Competition" was born. To read more about the competition and the other wonderful apps that my classmates build, click <a href="http://learn.nashvillesoftwareschool.com/blog/2018/05/29/metro-nashville-open-data-application-pitches?utm_medium=social&utm_source=linkedin" target="_blank">here</a>.</p>
+                <p className="bottom-border pb-5">For this project, our instructor came up with the idea for us to design, build, and pitch an application using data from Nashville's Open Data. And thus, Nashville Software School's first "Perfect Pitch Competition" was born. To read more about the competition and the other wonderful apps that my classmates build, click <a href="http://learn.nashvillesoftwareschool.com/blog/2018/05/29/metro-nashville-open-data-application-pitches?utm_medium=social&utm_source=linkedin" target="_blank">here</a>. This was one of my favorite projects that I worked on at NSS. It was so amazing to get feedback from the tech community about what we had built.</p>
                 <div className="d-flex pt-5 pb-5 bottom-border">
                     <div className="pr-5 pl-5">
                         <h3 className="pb-3 do-orange-underline">Our Team</h3>
