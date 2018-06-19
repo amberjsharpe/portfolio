@@ -36,6 +36,10 @@
     background-color: rgba(255, 178, 54);
 }
 
+.orange-background {
+    background-color: rgba(255, 178, 54, 0.4);  
+}
+
 .image-overlay-blue {
     background-color: rgba(127, 222, 255);
 }
@@ -61,7 +65,11 @@
 }
 
 .screengrab-img {
-    width: 500px;
+    width: 550px;
     height: 350px;
+}
+
+p {
+    font-size: 20px;
 }
 
