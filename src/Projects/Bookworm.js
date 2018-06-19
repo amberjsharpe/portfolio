@@ -12,9 +12,9 @@ class Bookworm extends Component {
                     <Workbtns />
                 </div>
                 <div className="bookworm-font pt-3">
-                    <h1>Bookworm</h1>
+                    <h3>Bookworm</h3>
                 </div>
-                <h4>Bookworm is a project that I made during my time at Nashville Software School. I conducted user research, wireframed, prototyped, and developed this application after being inspired by another bookstore's site.</h4>
+                <p>Bookworm is a project that I made during my time at Nashville Software School. I conducted user research, wireframed, prototyped, and developed this application after being inspired by another bookstore's site.</p>
                 <div className="d-flex pt-5 pb-5 bottom-border">
                     <img className="parnassus-img w-50" src={parnassus} alt="parnassus" />
                     <div className="w-50 pt-5 pr-5 pl-5">
@@ -29,13 +29,20 @@ class Bookworm extends Component {
                     </div>    
                     <img className="insights-img w-50" src={insights} alt="insights" />
                 </div>
-                    <div className="d-flex pt-5">
+                    <div className="d-flex pt-5 pb-5 bottom-border">
                         <div>
                             <img className="persona-img" src={persona} alt="persona"/>
                         </div>
-                        <div>
-                            <h3>Persona</h3>
-                            <p>My research led me to develop me to develop this persona. In my design I tried to keep the design fun and based on interfaces that she already uses, like Pinterest and Instagram.</p>
+                        <div className="pt-5">
+                            <h3>Meet Abby!</h3>
+                            <p>My research led me to develop me to develop this persona. In my design I tried to keep the design fun and colorful. I also based my interface design on interfaces that she already uses, like Pinterest and Instagram.</p>
+                            <p>I learned that the way that my persona browses books is different from the way that she buys books. While she enjoys going to bookstores and browsing for leisure, the odds are she is going to actually buy books on Amazon. This led me to my challenge statement ...</p>
+                        </div>
+                    </div>
+                    <div className="d-flex">
+                        <div className="pt-5">
+                            <h3>Challenge Statement</h3>
+                            <h4>How might I enable my persona to browse books in a relaxed setting without the pressure to purchase, while giving them the ability to track books that they’ve read or that they want to read?</h4>
                         </div>
                     </div>  
             </div>
