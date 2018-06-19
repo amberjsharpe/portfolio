@@ -19,6 +19,9 @@
     font-size: 44px !important;
     font-weight: bold !important;
 }
+.bottom-border {
+    border-bottom: solid black 2px;
+}
 
 .image-overlay-red {
     background-color: rgba(233, 137, 61);
@@ -30,5 +33,15 @@
 
 .image-overlay-blue {
     background-color: rgba(127, 222, 255);
+}
+
+.parnassus-img {
+    width: 600px;
+    height: 300px;
+}
+
+.insights-img {
+    width: 600px;
+    height: 350px;
 }
 

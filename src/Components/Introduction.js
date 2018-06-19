@@ -11,7 +11,7 @@ function Intro () {
             </div>
             <div className="sub-intro">
                 <h4>I'm a Designer and Front-end Developer.</h4>
-                <h4>Explore some of my work below.</h4>
+                <h4>Take a peek at some of my work.</h4>
             </div>
             <div className="d-flex justify-content-center pt-5">
                 <img src={down} alt="down arrow" className="down-arrow"/>
