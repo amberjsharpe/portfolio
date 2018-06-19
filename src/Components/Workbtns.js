@@ -18,9 +18,11 @@ class Workbtns extends Component {
                                 <h1 className="do-font">do.</h1>
                         </button>
                     </Link>
-                    <button className="project image-overlay-blue">
-                            <h1 className="smalltalk-font">SmallTalk</h1>
-                    </button>
+                    <Link to="/work/smalltalk">
+                        <button className="project image-overlay-blue">
+                                <h1 className="smalltalk-font">SmallTalk</h1>
+                        </button>
+                    </Link>
                 </div>
             </div>
         )
