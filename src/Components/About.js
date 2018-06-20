@@ -5,12 +5,9 @@ import './About.css';
 class About extends Component {
     render() {
         return(
-            <div className="row d-flex pt-5">
+            <div className="row pt-5">
                 <div className="col-12 col-md-6">
-                    <img className="confetti img-fluid" src={confetti} alt="confetti-headshot"/>
-                </div>
-                <div className="col-12 col-md-6">
-                    <h1 className="pb-5">Here's a little about me!</h1>
+                    <h1 className="pb-5 blue-underline">Here's a little about me!</h1>
                     <p><strong>
                     I'm a UI/UX Designer and Developer with a curious mind and a passion for create meaningful user experiences. 
                     </strong></p>
@@ -20,7 +17,18 @@ class About extends Component {
                     <p>
                     When I'm not staring at a computer screen, you will probably find me walking my adorable dog, Mason, experimenting with a new recipe in the kitchen, or trying to convince my husband to go to a yoga class with me.
                     </p>
+                    <h2 className="do-orange-underline">If you want to connect, shoot me an e-mail!</h2>
+                    <div className="d-flex justify-content-center pt-5 pr-5">
+                        <button className="button">
+                            <h3>
+                                <a href="mailto:amberjsharpe@gmail.com" target="_blank" rel="noopener noreferrer">E-mail Me</a>
+                            </h3>
+                        </button>
+                    </div>
                 </div> 
+                <div className="col-12 col-md-6">
+                    <img className="confetti img-fluid" src={confetti} alt="confetti-headshot"/>
+                </div>
             </div>
         )
     }

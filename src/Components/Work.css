@@ -33,6 +33,11 @@
     text-decoration-color: rgba(255, 178, 54);    
 }
 
+.blue-underline {
+    text-decoration: underline;
+    text-decoration-color:  rgba(127, 222, 255);
+}
+
 .image-overlay-red {
     background-color: rgba(233, 137, 61);
 }
