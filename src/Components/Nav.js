@@ -19,19 +19,19 @@ class Nav extends Component {
             <div className="container-fluid">
                 <nav className="row d-flex justify-content-between align-items-center">
                     <div className="col-12 col-md-6">
-                        <Link to='/home'>
+                        <Link to='/'>
                             <div className="logo"><h1>a/#</h1></div>
                         </Link>
                     </div>
                     <div className="nav d-flex justify-content-between col-12 col-md-6">
-                        <h2><NavLink activeClassName='is-active' to='/home'>HOME</NavLink></h2>
+                        <h2><NavLink activeClassName='is-active' to='/'>HOME</NavLink></h2>
                         <h2><NavLink activeClassName='is-active' to='/work'>WORK</NavLink></h2>
                         {/* <h2><NavLink activeClassName='is-active' to='/play'>PLAY</NavLink></h2> */}
                         <h2><NavLink activeClassName='is-active' to='/about'>ABOUT</NavLink></h2>
                     </div>
                 </nav>
                 <div>
-                    <Route exact path="/home" component={Introduction}/>
+                    <Route exact path="/" component={Introduction}/>
                     <Route exact path='/work' component={Work} />
                     <Route exact path="/work/bookworm" component={Bookworm}/>
                     <Route exact path="/work/do" component={Do}/>
