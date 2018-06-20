@@ -14,7 +14,7 @@ class About extends Component {
                     <p>
                     I'm a UI/UX Designer and Developer with a curious mind and a passion for create meaningful user experiences. I love waking up knowing that my day will be filled with problem-solving, learning, and interacting with people. 
                     </p>
-                </div>
+                </div> 
             </div>
         )
     }
