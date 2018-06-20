@@ -7,7 +7,7 @@ class Smalltalk extends Component {
             <div>
                 <Workbtns />
                 <div className="d-flex justify-content-center align-items-center">
-                    <h1 className="">Coming soon to a website near you.....</h1>
+                    <h1 className="pt-5">Coming soon to a website near you.....</h1>
                 </div>
             </div>
         )
