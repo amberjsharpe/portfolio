@@ -113,7 +113,7 @@ class Bookworm extends Component {
                     <div className="row bottom-border pb-5">
                             <h3 className="col-12 pt-5 pb-5 orange-underline">Presentation Time!</h3>
                             <div className="col-12 col-md-6 d-flex">
-                                <p className="pr-5 pl-5">If you can't tell, I had so much fun showing everyone what I had built. Along with a demonstration of my app, I was also able to share some of the lessons that I had learned along the way, and what I would build in version 2.</p>
+                                <p className="pr-5 pl-5">If you can't tell, I had so much fun showing everyone Bookworm. Along with a demonstration of my app, I was also able to share some of the lessons that I had learned along the way, and what I would build in version 2.</p>
                             </div>
                             <div className="col-12 col-md-6 d-flex">
                                 <img src={present} className="img-fluid" alt="me presenting my project" />

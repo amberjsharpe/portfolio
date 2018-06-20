@@ -5,6 +5,9 @@ import team from '../images/do-team.png';
 import api from '../images/API.png';
 import user from '../images/do-user.png';
 import competitor from '../images/do-competitor.png';
+import prototypes from '../images/do-prototype.png';
+import usability from '../images/do-usability.png';
+import style from '../images/do-styleguide.png';
 
 class Do extends Component {
     render() {
@@ -25,7 +28,7 @@ class Do extends Component {
                                 <img className="screengrab-img img-fluid" src={team} alt="team members and their roles" />
                             </div>
                             <div className="col-12 col-md-6">
-                                <p className="pl-5 pr-5">I was involved in <strong>Project Management, UX Design and Reseach, and Development.</strong> I assisted Lindsay in creating and assigning tickets, tracking progress, and merging pull requests on Github. I was also a part of the team that initial design and tested the prototype, as well as doing a little development.</p>
+                                <p className="pl-5 pr-5">I was involved in <strong>Project Management, UX Design and Reseach, and Development.</strong> I assisted Lindsay in creating and assigning tickets, tracking progress, and merging pull requests on Github. I was also a part of the team that came up with the initial concept and design, as well as one of the developers.</p>
                             </div>
                         </div>
                     </div>
@@ -64,49 +67,37 @@ class Do extends Component {
                                     <img className="screengrab-img img-fluid" src={competitor} alt="competitor research" />
                                 </div>   
                                 <div className="col-12 col-md-6">
-                                    <p className="pl-5 pr-5">help help help help help help help help help help help help help help help help help help </p>
+                                    <p className="pl-5 pr-5">During our user research, several other Nashville websites were mentioned. The feedback we received is that they were cluttered and advertisement heavy, but all that was available. We did our own digging and generally concurred with our interviewees. Most of these sites had so much information that it was difficult to quickly plan out an activity for the day. This led us to our Challenge Statement...</p>
                                 </div>                                 
                             </div>
                         </div>
                     </div>
-                    <div className="d-flex">
+                    <div className="col-12 col-md-6">
                         <div className="pt-5 pb-5 bottom-border">
                             <h3 className="do-orange-underline pt-1 pb-1">Challenge Statement</h3>
                             <h4>How might we make finding new public spaces fast, fun, simple, and relatable?</h4>
                         </div>
                     </div>
                     <div className="pt-5 pb-5 bottom-border">
-                        <h3 className="pt-5 pb-5 do-orange-underline">Screen Sketches</h3>
-                        <p>I started sketching out what I wanted the application to look like. I wanted a prominent search bar, since that is the main functionality of the site.</p>
+                        <h3 className="pt-5 pb-5 do-orange-underline">Prototypes</h3>
+                        <p>Our original prototype was a scroll based version of the final app with differentiation between Art, Parks, and Historical Data. Upon user testing, we realized the desired outcome for the user was to quickly find things near them when they were already out, or when they were ready to go out. We found out the user wanted something quick, relatable, and fun when dealing with this data. From this place we pivoted to the Tinder style which more captivated users.</p>
+                        <img className="screengrab-img img-fluid" src={prototypes} alt="prototypes" />
                     </div>
                     <div className="bottom-border pb-5">
-                        <h3 className="pt-5 pb-5 do-orange-underline">Bookworm v.1</h3>
-                        <p>This was the final result that I presented from my midstone. I learned from my user interviews that when my persona shops for books she is primary interested in knowing the title, author, and pertinent details about the book. To keep the book cards from looking too cluttered, I programmed a modal to pop up with book details when you click on the book image.</p>
+                        <h3 className="pt-5 pb-5 do-orange-underline">Usability Testing</h3>
+                        <p>We also added a few things to our final application, based off feedback that we received during our user testing. People wanted the ability to comment on points of interest, so we added that as a feature. Since we were pulling from three different APIs, we also added a description under the Point of Interest name to let people know whether it was a park, historical marker, or art site. There were a few icons that people kept trying to click that were just for decoration, so we just took those out!</p>
+                        <img className="screengrab-img img-fluid" src={usability} alt="usability" />
                     </div>
                     <div>
                         <div className="bottom-border pb-5">
-                            <h3 className="pt-5 pb-5 do-orange-underline">Presentation Time!</h3>
-                            <div className="d-flex">
-                                <p>If you can't tell, I had so much fun showing everyone what I had built. Along with a demonstration of my app, I was also able to share some of the lessons that I had learned along the way, and what I would build in version 2.</p>
-                            </div>
+                            <h3 className="pt-5 pb-5 do-orange-underline">Style Guide</h3>
+                            <img className="screengrab-img img-fluid" src={style} alt="style guide" />
                         </div>
                     </div>
                     <div>
-                    <h3 className="pt-5 pb-5 do-orange-underline">Version 2</h3>
-                    <p><strong>Now that I've learned React and whole lot more about designing and developing a website, I would approach version two of Bookworm very differently.</strong></p>
-                    <ul>
-                        <li>
-                            <p>I did most of my testing on the final project, which was much harder to change than a prototype would have been. Now prototyping is a crucial part of my design process.</p>
-                        </li>
-                        <li>
-                            <p>I wrote this application in Vanilla Javascript, before I learned a front end framework. The site is not very mobile friendly. In version two, I would re-write the application in React and use a mobile-first approach.</p>
-
-                        </li>
-                        <li>
-                            <p>The biggest lesson that I learned was to not be afraid to pivot. Many times during the project I would be heading down one path, only to hear from my users that they wanted something different. I learned ot keep my process fluid enough that changes can be made along the way.</p>
-                        </li>
-                    </ul>
-
+                        <h3 className="pt-5 pb-5 do-orange-underline">Spoiler alert: We won!</h3>
+                        <p>It was extremely close, but we managed to squeeze by with a victory! We learned so much during this project. As far as development goes, we learned how important it is to <strong>set state at the top of your application when building a React app.</strong> In our design and user research, we learned the balance of creating new itterations of our application based user feedback, while also making sure that we were on track to meet our development deadline. Personally, I learned a lot about working on a team and communication. Also our instructor made us fake medals shaped like unicorns, which was the best prize that I could imagine.</p>
+                        <img className="screengrab-img img-fluid" src={winner} alt="winner" />
                     </div>
             </div>
         )
