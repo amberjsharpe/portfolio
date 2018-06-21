@@ -1,8 +1,8 @@
 {
-  "main.css": "static/css/main.c661937a.css",
-  "main.css.map": "static/css/main.c661937a.css.map",
-  "main.js": "static/js/main.e6341b9f.js",
-  "main.js.map": "static/js/main.e6341b9f.js.map",
+  "main.css": "static/css/main.c9481e6f.css",
+  "main.css.map": "static/css/main.c9481e6f.css.map",
+  "main.js": "static/js/main.8a904a84.js",
+  "main.js.map": "static/js/main.8a904a84.js.map",
   "static/media/API.png": "static/media/API.314a460f.png",
   "static/media/ScreenSketch1.jpg": "static/media/ScreenSketch1.2a6bc9ed.jpg",
   "static/media/ScreenSketch2.jpg": "static/media/ScreenSketch2.91301c3e.jpg",
@@ -23,5 +23,16 @@
   "static/media/do-winnershot.png": "static/media/do-winnershot.e5114ca3.png",
   "static/media/firebase.jpg": "static/media/firebase.b0173037.jpg",
   "static/media/mail-icon.png": "static/media/mail-icon.6aa1c1e5.png",
-  "static/media/parnassus.png": "static/media/parnassus.efcc576a.png"
+  "static/media/parnassus.png": "static/media/parnassus.efcc576a.png",
+  "static/media/smalltalk-persona1.png": "static/media/smalltalk-persona1.9d49207e.png",
+  "static/media/smalltalk-persona2.png": "static/media/smalltalk-persona2.a4852ced.png",
+  "static/media/smalltalk-persona3.png": "static/media/smalltalk-persona3.4b4b91cd.png",
+  "static/media/st-appscreen1.png": "static/media/st-appscreen1.4e5f81e4.png",
+  "static/media/st-appscreen2.png": "static/media/st-appscreen2.70b20c5f.png",
+  "static/media/st-appscreen3.png": "static/media/st-appscreen3.862f4e7b.png",
+  "static/media/st-prototype1.png": "static/media/st-prototype1.f55dc906.png",
+  "static/media/st-prototype2.png": "static/media/st-prototype2.616337b6.png",
+  "static/media/st-prototype3.png": "static/media/st-prototype3.28e04c84.png",
+  "static/media/st-prototype4.png": "static/media/st-prototype4.c15f4798.png",
+  "static/media/st-prototype5.png": "static/media/st-prototype5.147d6db0.png"
 }
