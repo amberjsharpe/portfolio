@@ -31,7 +31,7 @@ class Smalltalk extends Component {
                     <h3 className="blue-underline">Persona</h3>
                     <div className="row">
                         <div className="pt-5 col-12 col-md-6">
-                            <img className="persona-img" src={goals} alt="goals" />
+                            <img className="goals-img" src={goals} alt="goals" />
                         </div>
                         <div className="col-12 col-md-6">
                             <div>
