@@ -89,6 +89,11 @@
         height: 350px;    
     }
 
+    .phone-img {
+        height: 400px;
+        width: 200px;
+    }
+
 }
 
 p {

@@ -9,6 +9,10 @@ import prototype2 from '../images/st-prototype2.png';
 import prototype3 from '../images/st-prototype3.png';
 import prototype4 from '../images/st-prototype4.png';
 import prototype5 from '../images/st-prototype5.png';
+import screen1 from '../images/st-appscreen1.png';
+import screen2 from '../images/st-appscreen2.png';
+import screen3 from '../images/st-appscreen3.png';
+
 
 class Smalltalk extends Component {
     render() {
@@ -57,6 +61,7 @@ class Smalltalk extends Component {
                     <div className="row d-flex">
                         <div className="col-12 pt-5 pb-5 bottom-border">
                             <h3 className="blue-underline pt-1 pb-1">Prototype</h3>
+                            <p>I built and tested </p>
                             <img className="img-fluid pl-2 pr-2 pb-3" src={prototype1} alt="prototype" />
                             <img className="img-fluid pl-2 pr-2 pb-3" src={prototype2} alt="prototype" />
                             <img className="img-fluid pl-2 pr-2 pb-3" src={prototype3} alt="prototype" />
@@ -65,30 +70,16 @@ class Smalltalk extends Component {
                         </div>
                     </div>
                     <div className="pt-5 pb-5 bottom-border">
-                        <h3 className="pt-5 pb-5 blue-underline">Screen Sketches</h3>
-                        <p>I started sketching out what I wanted the application to look like. I wanted a prominent search bar, since that is the main functionality of the site.</p>
-                        <div className="d-flex justify-content-around">
-                            <div className="row">
-                                <div className="col-12 col-md-4">
-                                    <img className="img-fluid" />
-                                </div>
-                                <div className="col-12 col-md-4">
-                                    <img className="img-fluid" />
-                                </div>
-                                <div className="col-12 col-md-4">
-                                    <img className="img-fluid" />
-                                </div>
-                            </div>                            
-                        </div>
-                    </div>
-                    <div className="pt-5 pb-5 bottom-border">
-                        <h3 className="pt-5 pb-5 blue-underline">Firebase Data Structure</h3>
+                        <h3 className="pt-5 pb-5 blue-underline">Usability Testing</h3>
                         <div className="row">
-                            <div className="col-12 col-md-6">
-                                <p className="pr-5 pl-5">If you fail to plan, then you plan to fail!</p>
+                            <div className="col-12 col-md-4">
+                                <img className="phone-img img-fluid" src={screen1} alt="screen" />
                             </div>
-                            <div className="col-12 col-md-6">
-                                <img className="img-fluid" />
+                            <div className="col-12 col-md-4">
+                                <img className="phone-img img-fluid" src={screen2} alt="screen" />
+                            </div>
+                            <div className="col-12 col-md-4">
+                                <img className="phone-img img-fluid" src={screen3} alt="screen" />
                             </div>
                         </div>
                     </div>
