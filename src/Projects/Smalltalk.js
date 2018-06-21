@@ -70,15 +70,18 @@ class Smalltalk extends Component {
                         </div>
                     </div>
                     <div className="pt-5 pb-5 bottom-border">
-                        <h3 className="pt-5 pb-5 blue-underline">Usability Testing</h3>
+                        <h3 className="pt-5 pb-5 blue-underline">Changes Made</h3>
                         <div className="row">
                             <div className="col-12 col-md-4">
+                                <p><strong>Brightened button colors</strong></p>
                                 <img className="phone-img img-fluid" src={screen1} alt="screen" />
                             </div>
                             <div className="col-12 col-md-4">
+                                <p><strong>Changed logo to back button</strong></p>
                                 <img className="phone-img img-fluid" src={screen2} alt="screen" />
                             </div>
                             <div className="col-12 col-md-4">
+                                <p><strong>Added space between heart and plus button</strong></p>
                                 <img className="phone-img img-fluid" src={screen3} alt="screen" />
                             </div>
                         </div>
