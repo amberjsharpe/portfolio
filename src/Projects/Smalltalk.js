@@ -61,7 +61,6 @@ class Smalltalk extends Component {
                     <div className="row d-flex">
                         <div className="col-12 pt-5 pb-5 bottom-border">
                             <h3 className="blue-underline pt-1 pb-1">Prototype</h3>
-                            <p>I built and tested </p>
                             <img className="img-fluid pl-2 pr-2 pb-3" src={prototype1} alt="prototype" />
                             <img className="img-fluid pl-2 pr-2 pb-3" src={prototype2} alt="prototype" />
                             <img className="img-fluid pl-2 pr-2 pb-3" src={prototype3} alt="prototype" />
@@ -70,18 +69,19 @@ class Smalltalk extends Component {
                         </div>
                     </div>
                     <div className="pt-5 pb-5 bottom-border">
-                        <h3 className="pt-5 pb-5 blue-underline">Changes Made</h3>
+                        <h3 className="pt-5 pb-5 blue-underline">Usability Testing</h3>
+                        <p>Feedback from users led me to make a few small tweaks to my design. I brightened a few of the button colors to make them easier to read. It was not obvious to everyone that the logo would bring you to the previous screen, so I changed it to a back button. And lastly, I added some space between the heart and plus button. They were too close together to pass the "fat finger" test.</p>
                         <div className="row">
                             <div className="col-12 col-md-4">
-                                <p><strong>Brightened button colors</strong></p>
+                                <p className="blue-underline"><strong>Brightened button colors</strong></p>
                                 <img className="phone-img img-fluid" src={screen1} alt="screen" />
                             </div>
                             <div className="col-12 col-md-4">
-                                <p><strong>Changed logo to back button</strong></p>
+                                <p className="blue-underline"><strong>Changed logo to back button</strong></p>
                                 <img className="phone-img img-fluid" src={screen2} alt="screen" />
                             </div>
                             <div className="col-12 col-md-4">
-                                <p><strong>Added space between heart and plus button</strong></p>
+                                <p className="blue-underline"><strong>Added space between heart and plus button</strong></p>
                                 <img className="phone-img img-fluid" src={screen3} alt="screen" />
                             </div>
                         </div>
