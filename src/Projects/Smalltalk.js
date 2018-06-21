@@ -86,49 +86,19 @@ class Smalltalk extends Component {
                             </div>
                         </div>
                     </div>
-                    <div className="bottom-border pb-5">
-                        <h3 className="pt-5 pb-5 blue-underline">Bookworm v.1</h3>
-                        <div className="row">
-                            <div className="col-12 col-md-6">
-                                <p>This was the final result that I presented from my midstone. I learned from my user interviews that when my persona shops for books she is primary interested in knowing the title, author, and pertinent details about the book. To keep the book cards from looking too cluttered, I programmed a modal to pop up with book details when you click on the book image.</p>
-                            </div>
-                            <div className="col-12 col-md-6">
-                                <img className="img-fluid" />
-                            </div> 
-                            <div className="col-12 col-md-6">
-                                <img className="img-fluid" />
-                            </div> 
-                            <div className="col-12 col-md-6">
-                                <img className="img-fluid pt-5"/>
-                            </div> 
-                        </div>  
-                    </div>
-                    <div className="row bottom-border pb-5">
-                            <h3 className="col-12 pt-5 pb-5 blue-underline">Presentation Time!</h3>
-                            <div className="col-12 col-md-6 d-flex">
-                                <p className="pr-5 pl-5">If you can't tell, I had so much fun showing everyone Bookworm. Along with a demonstration of my app, I was also able to share some of the lessons that I had learned along the way, and what I would build in version 2.</p>
+                    <div className="row pb-5">
+                            <h3 className="col-12 pt-5 pb-5 blue-underline">Version 2</h3>
+                            <div className="col-12">
+                                <p className="pr-5 pl-5">A theme that continually came up in my research is that users typically plan small talk for specific events with specific people in mind. In my prototype, users have the ability to save small talk to specific events. Due to the time constraint, I have not yet coded it, but rest assured it will be present in v.2 of small talk.</p>
                             </div>
                             <div className="col-12 col-md-6 d-flex">
                                 <img className="img-fluid" />
                             </div>
                         </div>
-                    <div>
-                    <h3 className="pt-5 pb-5 blue-underline">Version 2</h3>
-                    <p><strong>Now that I've learned React and whole lot more about designing and developing a website, I would approach version two of Bookworm very differently.</strong></p>
-                    <ul>
-                        <li>
-                            <p>I did most of my testing on the final project, which was much harder to change than a prototype would have been. Now prototyping is a crucial part of my design process.</p>
-                        </li>
-                        <li>
-                            <p>I wrote this application in Vanilla Javascript, before I learned a front end framework. The site is not very mobile friendly. In version two, I would re-write the application in React and use a mobile-first approach.</p>
-
-                        </li>
-                        <li>
-                            <p>The biggest lesson that I learned was to not be afraid to pivot. Many times during the project I would be heading down one path, only to hear from my users that they wanted something different. I learned to keep my process fluid enough that changes can be made along the way.</p>
-                        </li>
-                    </ul>
-
-                    </div>
+                    {/* <div>
+                        <h3 className="pt-5 pb-5 blue-underline">Lessons Learned</h3>
+                        <p><strong></strong></p>
+                    </div> */}
             </div>
         )
     }
