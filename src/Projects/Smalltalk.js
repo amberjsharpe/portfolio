@@ -4,6 +4,11 @@ import '../Components/Work.css';
 import persona from '../images/smalltalk-persona1.png';
 import goals from '../images/smalltalk-persona2.png';
 import personality from '../images/smalltalk-persona3.png';
+import prototype1 from '../images/st-prototype1.png';
+import prototype2 from '../images/st-prototype2.png';
+import prototype3 from '../images/st-prototype3.png';
+import prototype4 from '../images/st-prototype4.png';
+import prototype5 from '../images/st-prototype5.png';
 
 class Smalltalk extends Component {
     render() {
@@ -20,7 +25,7 @@ class Smalltalk extends Component {
                     <h3 className="blue-underline">Research</h3>
                     <div className="row">
                         <div className="col-12 col-md-6 pt-5">
-                            <p>My initial idea was to create a fun application to get the conversation rolling at parties. I sent out a survey to a group of my friends who are age 18-35, since I imagined this type of application might appeal to that age group. I also conducted in-person interviews, trying to gauge what someone would be looking for in this sort of app. Multiple people commented that they would rather use that app before they got to the party, so that they would be less nervous. This gave me the idea to create an app designed to help people alleviate their social anxiety by allowing them to plan out some small talk ideas beforehand.</p>
+                            <p>My initial idea was to create a fun app for parties to get the conversation rolling at parties. I sent out a survey to a group of my friends who are age 18-35, since I imagined this type of app might appeal to that age group. I also conducted in-person interviews, trying to gauge what someone would be looking for in this sort of app. Multiple people commented that they would rather use that app before they got to the party, so that they would be less nervous. This gave me the idea to create an app designed to help people alleviate their social anxiety by allowing them to plan out some small talk ideas beforehand.</p>
                         </div>
                         <div className="col-12 col-md-6">
                             <img className="img-fluid" />
@@ -42,18 +47,21 @@ class Smalltalk extends Component {
                     </div>
                 </div>
                 <div className="pt-5 bottom-border">
-                    <h3 className="blue-underline">fill</h3>
+                    <h3 className="blue-underline">Challenge Statement</h3>
                     <div className="row">
                         <div className="col-12 pb-5">
-                            <p>I sent out a survey asking "avid readers" (those who read more than 20 books a year) to respond to a few questions. The responses that I received showed some clear themes about these "avid readers", so I decided to make an application based on what I discovered during this research. I followed up with several people to do more in-depth interviews about their reading habits and how they interacted with technology during that process.</p>
+                            <h4>How might I enable my users to reduce their anxiety at social events by supplying them with ideas for small talk?</h4>
                         </div>    
                     </div>
                 </div>
                     <div className="row d-flex">
                         <div className="col-12 pt-5 pb-5 bottom-border">
-                            <h3 className="blue-underline pt-1 pb-1">Challenge Statement</h3>
-                            <h4>How might I enable my persona to browse books in a relaxed setting without the pressure to purchase, while giving them the ability to track books that they’ve read or that they want to read?</h4>
-                            <p>My solution for this challenge statement came in the form of an application primarily designed to search for books that you would like to read, or that allowed you to track books that you had already read. This met my persona's challenge of wanting to browse for books that she wanted to read without the pressure to buy (and also was achievable within the scope of my technical abilities).</p>
+                            <h3 className="blue-underline pt-1 pb-1">Prototype</h3>
+                            <img className="img-fluid pl-2 pr-2 pb-3" src={prototype1} alt="prototype" />
+                            <img className="img-fluid pl-2 pr-2 pb-3" src={prototype2} alt="prototype" />
+                            <img className="img-fluid pl-2 pr-2 pb-3" src={prototype3} alt="prototype" />
+                            <img className="img-fluid pl-2 pr-2 pb-3" src={prototype4} alt="prototype" />
+                            <img className="img-fluid pl-2 pr-2 pb-3" src={prototype5} alt="prototype" />
                         </div>
                     </div>
                     <div className="pt-5 pb-5 bottom-border">
