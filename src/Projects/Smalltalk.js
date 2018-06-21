@@ -1,5 +1,9 @@
 import React, { Component } from 'react';
 import Workbtns from '../Components/Workbtns';
+import '../Components/Work.css';
+import persona from '../images/smalltalk-persona1.png';
+import goals from '../images/smalltalk-persona2.png';
+import personality from '../images/smalltalk-persona3.png';
 
 class Smalltalk extends Component {
     render() {
@@ -13,39 +17,38 @@ class Smalltalk extends Component {
                 </div>
                 <p className="bottom-border pb-5">SmallTalk is my final capstone project at Nashville Software School. It is an application that allows users to search for small talk topics by category and save them for later use. I designed this application to be used by people with social anxiety to prepare for big events in their life.</p>
                 <div className="pt-5 pb-5 bottom-border">
-                    <h3 className="blue-underline">My inspiration</h3>
+                    <h3 className="blue-underline">Research</h3>
                     <div className="row">
                         <div className="col-12 col-md-6 pt-5">
-                            <p>I began my project by ambitiously deciding to re-design the entire parnassus website. I created a survey to try to get more information on "avid readers" and drew up my initial wireframes. It was during the wireframe process that I realized my time constraint was going to get the best of me. I was going to need to pivot ...</p>
+                            <p>My initial idea was to create a fun application to get the conversation rolling at parties. I sent out a survey to a group of my friends who are age 18-35, since I imagined this type of application might appeal to that age group. I also conducted in-person interviews, trying to gauge what someone would be looking for in this sort of app. Multiple people commented that they would rather use that app before they got to the party, so that they would be less nervous. This gave me the idea to create an app designed to help people alleviate their social anxiety by allowing them to plan out some small talk ideas beforehand.</p>
                         </div>
                         <div className="col-12 col-md-6">
-                            <img className="img-fluid"  />
+                            <img className="img-fluid" />
+                        </div>
+                    </div>
+                </div>
+                <div className="pt-5 pb-5 bottom-border">
+                    <h3 className="blue-underline">Persona</h3>
+                    <div className="row">
+                        <div className="pt-5 col-12 col-md-6">
+                            <img className="persona-img" src={goals} alt="goals" />
+                        </div>
+                        <div className="col-12 col-md-6">
+                            <div>
+                                <img className="img-fluid screensketch-img" src={persona} alt="persona" />
+                                <img className="screensketch-img" src={personality} alt="personality" />
+                            </div>
                         </div>
                     </div>
                 </div>
                 <div className="pt-5 bottom-border">
-                    <h3 className="blue-underline">Research</h3>
+                    <h3 className="blue-underline">fill</h3>
                     <div className="row">
-                        <div className="col-12 col-md-6">
+                        <div className="col-12 pb-5">
                             <p>I sent out a survey asking "avid readers" (those who read more than 20 books a year) to respond to a few questions. The responses that I received showed some clear themes about these "avid readers", so I decided to make an application based on what I discovered during this research. I followed up with several people to do more in-depth interviews about their reading habits and how they interacted with technology during that process.</p>
                         </div>    
-                        <div className="col-12 col-md-6">
-                            <img className="img-fluid"  />
-                        </div>
                     </div>
                 </div>
-                    <div className="pt-5 pb-5 bottom-border">
-                        <h3 className="blue-underline">Meet Abby!</h3>
-                        <div className="row">
-                            <div className="pt-5 col-12 col-md-6">
-                                <p>My research led me to develop me to develop this persona. In my design I tried to keep the design fun and colorful. I also based my interface design on interfaces that she already uses, like Pinterest and Instagram.</p>
-                                <p>I learned that the way that my persona browses books is different from the way that she buys books. While she enjoys going to bookstores and browsing for leisure, the odds are she is going to actually buy books on Amazon. This led me to my challenge statement ...</p>
-                            </div>
-                            <div className="col-12 col-md-6">
-                                <img className="img-fluid" />
-                            </div>
-                        </div>
-                    </div>
                     <div className="row d-flex">
                         <div className="col-12 pt-5 pb-5 bottom-border">
                             <h3 className="blue-underline pt-1 pb-1">Challenge Statement</h3>
