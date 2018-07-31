@@ -25,7 +25,7 @@ class Nav extends Component {
                             <div className="logo"><h1>a/#</h1></div>
                         </Link>
                     </div>
-                    <div className="nav d-flex justify-content-between col-12 col-md-6">
+                    <div className="nav d-flex justify-content-around col-12 col-md-6">
                         <h2><NavLink activeClassName='is-active' to='/home'>HOME</NavLink></h2>
                         <h2><NavLink activeClassName='is-active' to='/work'>WORK</NavLink></h2>
                         {/* <h2><NavLink activeClassName='is-active' to='/play'>PLAY</NavLink></h2> */}

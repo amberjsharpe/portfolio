@@ -10,7 +10,7 @@ function Intro () {
                 <h3>Well, hey there!<br />I'm<span className="amber-sharpe">Amber Sharpe</span></h3>
             </div>
             <div className="sub-intro">
-                <h4>I'm a UI/UX Designer and Front-end Developer.</h4>
+                <h4>I'm a UX Designer and Front-end Developer.</h4>
                 <h4>Take a peek at some of my work.</h4>
             </div>
             <div className="d-flex justify-content-center pt-5">
