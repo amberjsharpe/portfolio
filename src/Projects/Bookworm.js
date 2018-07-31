@@ -23,7 +23,7 @@ class Bookworm extends Component {
                 <div className="pt-3">
                     <h3 className="bookworm-font orange-underline">Bookworm</h3>
                 </div>
-                <p className="bottom-border pb-5">Bookworm is a project that I made during my time at Nashville Software School. We had two weeks to conduct user research, wireframe, prototype, and develop an application.</p>
+                <p className="bottom-border pb-5">Bookworm is a project that I made during my time at Nashville Software School. We had two weeks to conduct user research, wireframe, prototype, and develop an application. You can see my code for this project <a href="https://github.com/amberjsharpe/book-worm" target="_blank">here.</a></p>
                 <div className="pt-5 bottom-border">
                     <h3 className="orange-underline">Research</h3>
                     <div className="row">

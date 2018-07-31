@@ -19,7 +19,7 @@ class Do extends Component {
                 <div className="pt-3">
                     <h3 className="do-font do-orange-underline">do.</h3>
                 </div>
-                <p className="bottom-border pb-5">For this project, our instructor came up with the idea for us to design, build, and pitch an application using data from Nashville's Open Data. And thus, Nashville Software School's first "Perfect Pitch Competition" was born. To read more about the competition and the other wonderful apps that my classmates build, click <a href="http://learn.nashvillesoftwareschool.com/blog/2018/05/29/metro-nashville-open-data-application-pitches?utm_medium=social&utm_source=linkedin" target="_blank">here</a>. This was one of my favorite projects that I worked on at NSS. It was so amazing to get feedback from the tech community about what we had built.</p>
+                <p className="bottom-border pb-5">For this project, our instructor came up with the idea for us to design, build, and pitch an application using data from Nashville's Open Data. And thus, Nashville Software School's first "Perfect Pitch Competition" was born. To read more about the competition and the other wonderful apps that my classmates build, click <a href="http://learn.nashvillesoftwareschool.com/blog/2018/05/29/metro-nashville-open-data-application-pitches?utm_medium=social&utm_source=linkedin" target="_blank">here</a>. We were so fortunate to get feedback on our applications from members of the Nashville tech community. Click <a href="https://github.com/amberjsharpe/do" target="_blank">here</a> to see code for this project.</p>
                 <div className="d-flex pt-5 pb-5 bottom-border">
                     <div>
                         <h3 className="pb-3 do-orange-underline">Our Team</h3>
@@ -28,7 +28,7 @@ class Do extends Component {
                                 <img className="screengrab-img img-fluid" src={team} alt="team members and their roles" />
                             </div>
                             <div className="col-12 col-md-6">
-                                <p className="pl-5 pr-5">I was involved in <strong>Project Management, UX Design and Reseach, and Development.</strong> I assisted Lindsay in creating and assigning tickets, tracking progress, and merging pull requests on Github. I was also a part of the team that came up with the initial concept and design, as well as one of the developers.</p>
+                                <p className="pl-5 pr-5">I was involved in <strong>Project Management, UX Design and Reseach, and Development.</strong> I assisted in creating and assigning tickets, tracking progress, and merging pull requests on Github. I was also a part of the team that came up with the initial concept and design, as well as one of the developers.</p>
                             </div>
                         </div>
                     </div>
@@ -41,7 +41,7 @@ class Do extends Component {
                                 <img className="screengrab-img img-fluid" src={api} alt="api" />
                             </div>
                             <div className="col-12 col-md-6">
-                                <p className="pl-5 pr-5"><strong>Day Out, or do., is a Tinder style app</strong> that allows users to "match" with new points of interest in the Nashville area. Using data from data.nashville.gov, do. pulls from Nashville's Public Art, Historical Markers, and Parks data.</p>
+                                <p className="pl-5 pr-5"><strong>Day Out, or do., is a Tinder style app</strong> that allows users to "match" with points of interest in the Nashville area. Using data from data.nashville.gov, do. pulls from Nashville's Public Art, Historical Markers, and Parks data.</p>
                             </div>
                         </div>
                     </div>
@@ -54,7 +54,7 @@ class Do extends Component {
                                 <img className="screengrab-img img-fluid" src={user} alt="user" />
                             </div>
                             <div className="col-12 col-md-6">
-                                <p className="pl-5 pr-5">We call our user the "Impoverished Influencer." <strong>Think millennial, think hipster, think school debt.</strong> Bryan, is the kind of guy that wants to be on top of the game when it comes to the next cool thing to do. He’s is looking to find interesting new ways to break his routine - and if they’re free, all the better. He’s already an outdoor exerciser, he takes his dog to the dog park, our goal is to expand on his behaviour and let him know what else there is to do. in his area.</p>
+                                <p className="pl-5 pr-5">Our user is called the "Impoverished Influencer." <strong>Think millennial, think hipster, think school debt.</strong> Bryan, is the kind of guy that wants to be on top of the game when it comes to the next cool thing to do. He’s is looking to find interesting new ways to break his routine - and if they’re free, all the better. He’s already an outdoor exerciser, he takes his dog to the dog park, our goal is to expand on his behaviour and let him know what else there is to do. in his area.</p>
                             </div>
                         </div>
                     </div>
@@ -113,7 +113,7 @@ class Do extends Component {
                             <img className="screengrab-img img-fluid" src={winner} alt="winner" />
                         </div>
                         <div className="col-12 col-md-6">
-                            <p>It was extremely close, but we managed to squeeze by with a victory! We learned so much during this project. As far as development goes, we learned how important it is to <strong>set state at the top of your application when building a React app.</strong> In our design and user research, we learned the balance of creating new itterations of our application based user feedback, while also making sure that we were on track to meet our development deadline. Personally, I learned a lot about working on a team and communication. Also our instructor made us fake medals shaped like unicorns, which was the best prize that I could imagine.</p>
+                            <p>It was extremely close, but we managed to squeeze by with a victory! We learned so much during this project. Firstly, we learned how important it is to <strong>set state at the top of your application when building a React app.</strong> We learned the balance of creating new itterations of our application based user feedback, while also making sure that we were on track to meet our development deadline.</p>
                         </div>
                     </div>
                 </div>

@@ -24,12 +24,12 @@ class Smalltalk extends Component {
                 <div className="pt-3">
                     <h3 className="smalltalk-font blue-underline">SmallTalk</h3>
                 </div>
-                <p className="bottom-border pb-5">SmallTalk is my final capstone project at Nashville Software School. It is an application that allows users to search for small talk topics by category and save them for later use. I designed this application to be used by people with social anxiety to prepare for big events in their life.</p>
+                <p className="bottom-border pb-5">SmallTalk is my final capstone project at Nashville Software School. It is an application that allows users to search for small talk topics by category and save them for later use. I designed this application to be used by people with social anxiety to prepare for big events in their life. Click <a href="https://github.com/amberjsharpe/smalltalk" target="_blank">here</a> to see my code for this project.</p>
                 <div className="pt-5 pb-5 bottom-border">
                     <h3 className="blue-underline">Research</h3>
                     <div className="row">
                         <div className="col-12 col-md-6 pt-5">
-                            <p>My initial idea was to create a fun app for parties to get the conversation rolling at parties. I sent out a survey to a group of my friends who are age 18-35, since I imagined this type of app might appeal to that age group. I also conducted in-person interviews, trying to gauge what someone would be looking for in this sort of app. Multiple people commented that they would rather use that app before they got to the party, so that they would be less nervous. This gave me the idea to create an app designed to help people alleviate their social anxiety by allowing them to plan out some small talk ideas beforehand.</p>
+                            <p>My initial idea was to create a fun app for parties to get the conversation rolling at parties. I sent out a survey to a group of my people ages 18-35. I imagined this type of app might appeal to that age group. I also conducted in-person interviews, trying to gauge what someone would be looking for in this sort of app. Multiple people commented that they would rather use that app before they got to the party, so that they would be less nervous. This gave me the idea to create an app designed to help people alleviate their social anxiety by allowing them to plan out some small talk ideas beforehand.</p>
                         </div>
                         <div className="col-12 col-md-6">
                             <img className="img-fluid" />
@@ -86,19 +86,6 @@ class Smalltalk extends Component {
                             </div>
                         </div>
                     </div>
-                    <div className="row pb-5">
-                            <h3 className="col-12 pt-5 pb-5 blue-underline">Version 2</h3>
-                            <div className="col-12">
-                                <p className="pr-5 pl-5">A theme that continually came up in my research is that users typically plan small talk for specific events with specific people in mind. In my prototype, users have the ability to save small talk to specific events. Due to the time constraint, I have not yet coded it, but rest assured it will be present in v.2 of small talk.</p>
-                            </div>
-                            <div className="col-12 col-md-6 d-flex">
-                                <img className="img-fluid" />
-                            </div>
-                        </div>
-                    {/* <div>
-                        <h3 className="pt-5 pb-5 blue-underline">Lessons Learned</h3>
-                        <p><strong></strong></p>
-                    </div> */}
             </div>
         )
     }
